@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		FEFCC3CC227CEC4600C41107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFCC3CB227CEC4600C41107 /* AppDelegate.swift */; };
-		FEFCC3CE227CEC4600C41107 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFCC3CD227CEC4600C41107 /* ViewController.swift */; };
 		FEFCC3D1227CEC4600C41107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEFCC3CF227CEC4600C41107 /* Main.storyboard */; };
 		FEFCC3D3227CEC4800C41107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEFCC3D2227CEC4800C41107 /* Assets.xcassets */; };
 		FEFCC3D6227CEC4800C41107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEFCC3D4227CEC4800C41107 /* LaunchScreen.storyboard */; };
+		FEFCC3DE227CEC9600C41107 /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFCC3DD227CEC9600C41107 /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FEFCC3C8227CEC4600C41107 /* MusicaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFCC3CB227CEC4600C41107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FEFCC3CD227CEC4600C41107 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FEFCC3D0227CEC4600C41107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEFCC3D2227CEC4800C41107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEFCC3D5227CEC4800C41107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEFCC3D7227CEC4800C41107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEFCC3DD227CEC9600C41107 /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				FEFCC3CB227CEC4600C41107 /* AppDelegate.swift */,
-				FEFCC3CD227CEC4600C41107 /* ViewController.swift */,
+				FEFCC3DD227CEC9600C41107 /* GenreButtonScreen.swift */,
 				FEFCC3CF227CEC4600C41107 /* Main.storyboard */,
 				FEFCC3D2227CEC4800C41107 /* Assets.xcassets */,
 				FEFCC3D4227CEC4800C41107 /* LaunchScreen.storyboard */,
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEFCC3CE227CEC4600C41107 /* ViewController.swift in Sources */,
 				FEFCC3CC227CEC4600C41107 /* AppDelegate.swift in Sources */,
+				FEFCC3DE227CEC9600C41107 /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
